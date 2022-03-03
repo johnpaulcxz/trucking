@@ -49,6 +49,7 @@ h1.display-1 {
     top: 0;
     width: 100%;
     z-index: 9;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .nav li a {
@@ -91,6 +92,35 @@ h1.display-1 {
 
 .col-wrapper p {
     margin: 0;
+}
+
+.button-learn-more {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: #434242;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+.bg-gray {
+    background-color: #f2f2f2;
+}
+
+.client-home-item .client-home-image-wrapper {
+   position: relative; 
+   min-height: 450px;
+   background-color: #f2f2f2;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.client-home-item img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
 }
 
 @media(max-width: 770px) {
