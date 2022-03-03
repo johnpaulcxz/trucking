@@ -1,0 +1,126 @@
+html, body {
+    font-family: 'Outfit';
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+a {
+    color: #434242;
+    text-decoration: none;
+}
+
+h1.display-1 {
+    font-weight: 900;
+    color: #434242;
+}
+
+.hero-banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home {
+    background-image:url('../images/section-1.jpg');
+}
+
+#what-we-do {
+    background-image:url('../images/section-2.jpg');
+}
+
+#who-we-are {
+    background-image:url('../images/section-3.jpg');
+}
+
+#channels {
+    background-image:url('../images/section-4.jpg');
+}
+
+#contact-us {
+    background-image:url('../images/section-5.jpg');
+}
+
+.header {
+    /* background-color: rgba(255,255,255,0.5); */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.nav li a {
+    padding: 10px 0;
+    margin: 0 20px;
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 3px solid transparent;
+}
+
+.nav li a.active {
+    border-bottom: 3px solid #fff;
+}
+
+.site-logo {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.site-logo img {
+    max-width: 200px;
+}
+
+.contents {
+    position: relative;
+    z-index: 1;
+}
+
+.carousel-text-wrapper {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.col-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.col-wrapper p {
+    margin: 0;
+}
+
+@media(max-width: 770px) {
+
+    .site-logo-wrapper, .nav-wrapper {
+        text-align: center;
+    }
+
+    .nav {
+        float: none !important;
+        text-align: center;
+        display:  block;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .nav li {
+        display: inline-block;
+    }
+
+    .site-logo img {
+        max-width: 150px;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .header {
+        background-color: rgba(0,0,0,0.5);
+        padding-bottom: 10px;
+    }
+}
