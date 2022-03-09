@@ -64,8 +64,8 @@ h1.display-4 {
 	padding: 0;
 	margin: 0;
     z-index: 9;
-    /* background-color: rgba(0,0,0,0.5); */
-    background-color: rgba(0,192,0,0.5);
+    /* background-color: rgba(0,0,0,0.5); */ 
+    background-color: rgba(2, 38, 8, 0.9);
 }
 
 .nav li a {
@@ -229,6 +229,22 @@ h1.display-4 {
 .container {
     background-color: #fff;
 }
+
+.btn {
+    padding: 10px;
+    min-width: 200px;
+    margin-top: 20px;
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-orange, 
+.btn-orange:hover {
+    background-color: #f5b006;
+    color: #022608 !important;
+}
+
 
 
 @keyframes pulse {

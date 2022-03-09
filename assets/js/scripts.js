@@ -9,4 +9,13 @@ $(document).ready(function() {
         }
     })
 
+    $(".fancybox-pdf").fancybox({
+        type   :'iframe',
+        width  : 960,
+        height : 720,
+        autoSize: false,
+        autoDimensions: false,
+        autoScale: false,
+    })
+
 })
