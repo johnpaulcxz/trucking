@@ -293,8 +293,14 @@ ul li {
 }
 
 .footer {
-    background-color: #022608;
+	background-image: url('../images/main-banner-1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
     color: #fff;
+}
+
+.footer .footer-wrapper {
+    background-color: rgba(2, 38, 8, 0.9);
 }
 
 .carousel-control-prev {
@@ -318,6 +324,13 @@ ul li {
 
 	.carousel-control-next {
 		right: 0;
+	}
+	.home-gallery-main-wrapper, #carouselHomeGallery .carousel-item {
+		padding: 0 !important;
+	}
+	.home-gallery-wrapper {
+		padding: 5px !important;
+		margin: 0 !important;
 	}
 }
 
